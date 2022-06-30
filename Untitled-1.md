@@ -11,7 +11,8 @@ through your app and keep the state out of the DOM.
 * **Learn Once, Write Anywhere: We don't make assumptions avout the rest
 of your technology stack, so you can develop new features in React
 without rewriting existing code. React can also render on the server using
-Node dan power mobile apps using [React Native](https://reactnative.dev/).
+Node dan power mobile apps using[React Native](https://reactnative.dev/).
+
 [learn how to use React in your project](https://reactjs.org/docs/getting-started.html).
 ### Installation
 React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need:**
