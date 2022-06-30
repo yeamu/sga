@@ -11,4 +11,41 @@ through your app and keep the state out of the DOM.
 * **Learn Once, Write Anywhere: We don't make assumptions avout the rest
 of your technology stack, so you can develop new features in React
 without rewriting existing code. React can also render on the server using
-Node dan power mobile apps using 
+Node dan power mobile apps using [React Native](https://reactnative.dev/).
+[learn how to use React in your project](https://reactjs.org/docs/getting-started.html).
+### Installation
+React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need:**
+* Use [Online Playgrounds](https://reactjs.org/docs/getting-started.html#online-playgrounds) to get taste of React.
+* [Add React to a Website](https://reactjs.org/docs/add-react-to-a-website.html) as a `<script>` tag in one miute.
+* [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html) if you're looking for a powerful JavaScript
+toolchain.
+You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-links.html), or as a `react` package on
+[npm](https://www.npmjs.com/package/react).
+### Documentation
+You can find the React documentation [on the website](https://reactjs.org/).
+check out the [Getting Started]() page for a quick overview.
+The documentation is divided into several sections:
+* [Tutorial]()
+* [Main Concepts]()
+* [Advanced Guides]()
+* [API Reference]()
+* [Where to Get Support]()
+* [Contributing Guide]() 
+You can improve it by sending pull reqyests to [this repository]().
+### Examples
+We have several examples [on the website](). Here is the first one to get you
+started:
+```js
+import { createRoot } from 'react-dom/client';
+
+function HelloMessage({ name }) {
+    return <div>Hello {name}</div>;
+}
+
+const root = createRoot(document.getElementById)('containet'));
+root.render(<HelloMessage name="Talor" />;)
+```
+### Contributing
+The main pupose of this repository is to contiue evolving React core, making
+it fater and easier to use. Development of React happens in the open on
+GitHub, and we are grateful
